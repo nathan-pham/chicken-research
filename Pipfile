@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.5"
+tensorflow-gpu = "*"
+pixellib = "*"
+opencv-python = "*"
+opencv-contrib-python = "*"
+numpy = "*"
+imutils = "*"
+ipykernel = "*"
+pandas = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
